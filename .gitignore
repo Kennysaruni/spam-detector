@@ -1,0 +1,33 @@
+# Ignore virtual environments
+venv/
+.env/
+ml-env/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and database files
+*.log
+db.sqlite3
+
+# Ignore environment variables and secrets
+.env
+*.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore Ngrok files
+ngrok.log
+ngrok.yml
