@@ -14,6 +14,8 @@ __pycache__/
 # Ignore logs and database files
 *.log
 db.sqlite3
+*.db
+*.sqlite3
 
 # Ignore environment variables and secrets
 .env
@@ -31,3 +33,6 @@ Thumbs.db
 # Ignore Ngrok files
 ngrok.log
 ngrok.yml
+
+# Ignore Flask migration files
+migrations/
