@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import numpy as np
 from twilio.rest import Client
 from tensorflow.keras.models import load_model
@@ -9,6 +10,7 @@ import os
 
 
 app = Flask(__name__)
+CORS(app)
 
 # Load trained model
 model = load_model("spam_detector.keras")
